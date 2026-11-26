@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?><channels>
+  <channel site="gatotv.com" site_id="5_mexico" lang="es" xmltv_id="5_mexico.mx">Canal 5 de México (XHGC)</channel>
+  <channel site="gatotv.com" site_id="9_de_mexico" lang="es" xmltv_id="9_de_mexico.mx">Canal 9 de México (XEQ-TDT)</channel>
+  <channel site="gatotv.com" site_id="14_de_mexico" lang="es" xmltv_id="14_de_mexico.mx">Canal 14 de México</channel>
+  <channel site="gatotv.com" site_id="22_mexico_internacional" lang="es" xmltv_id="22_mexico_internacional.mx">Canal 22 de México (Internacional)</channel>
+  <channel site="gatotv.com" site_id="adn_40" lang="es" xmltv_id="adn_40.mx">Canal ADN 40</channel>
+  <channel site="gatotv.com" site_id="adult_swim_mexico" lang="es" xmltv_id="adult_swim_mexico.mx">Canal Adult Swim (México)</channel>
+  <channel site="gatotv.com" site_id="amc_mexico" lang="es" xmltv_id="amc_mexico.mx">Canal AMC (México)</channel>
+  <channel site="gatotv.com" site_id="amc_series_mexico" lang="es" xmltv_id="amc_series_mexico.mx">Canal AMC Series (México)</channel>
+  <channel site="gatotv.com" site_id="animal_planet_mexico" lang="es" xmltv_id="animal_planet_mexico.mx">Canal Animal Planet (México)</channel>
+  <channel site="gatotv.com" site_id="azteca_uno_1h" lang="es" xmltv_id="azteca_uno_1h.mx">Canal Azteca Uno -1 Hora</channel>
+  <channel site="gatotv.com" site_id="azteca_uno_2h" lang="es" xmltv_id="azteca_uno_2h.mx">Canal Azteca Uno -2 Horas</channel>
+  <channel site="gatotv.com" site_id="boomerang_mexico" lang="es" xmltv_id="boomerang_mexico.mx">Canal Boomerang (México)</channel>
+  <channel site="gatotv.com" site_id="comedy_central_mexico" lang="es" xmltv_id="comedy_central_mexico.mx">Canal Comedy Central (México)</channel>
+  <channel site="gatotv.com" site_id="de_las_estrellas_-1h_mexico" lang="es" xmltv_id="de_las_estrellas_-1h_mexico.mx">Canal de las Estrellas -1 Hora - México (XEW)</channel>
+  <channel site="gatotv.com" site_id="de_las_estrellas_-2h_mexico" lang="es" xmltv_id="de_las_estrellas_-2h_mexico.mx">Canal de las Estrellas -2 Horas - México (XEW)</channel>
+  <channel site="gatotv.com" site_id="de_pelicula_m" lang="es" xmltv_id="de_pelicula_m.mx">Canal De Película (Multiplex)</channel>
+  <channel site="gatotv.com" site_id="disney_junior_mexico" lang="es" xmltv_id="disney_junior_mexico.mx">Canal Disney Junior (México)</channel>
+  <channel site="gatotv.com" site_id="disney_xd_mexico" lang="es" xmltv_id="disney_xd_mexico.mx">Canal Disney XD (México)</channel>
+  <channel site="gatotv.com" site_id="dreamworks_channel_mexico" lang="es" xmltv_id="dreamworks_channel_mexico.mx">Canal DreamWorks Channel (México)</channel>
+  <channel site="gatotv.com" site_id="e_entertainment_television_mexico" lang="es" xmltv_id="e_entertainment_television_mexico.mx">Canal E! Entertainment Television (México)</channel>
+  <channel site="gatotv.com" site_id="el_heraldo_tv_mexico" lang="es" xmltv_id="el_heraldo_tv_mexico.mx">Canal El Heraldo TV (México)</channel>
+  <channel site="gatotv.com" site_id="espn_3_mexico" lang="es" xmltv_id="espn_3_mexico.mx">Canal ESPN 3 (México)</channel>
+  <channel site="gatotv.com" site_id="espn_4_mexico" lang="es" xmltv_id="espn_4_mexico.mx">Canal ESPN 4 (México)</channel>
+  <channel site="gatotv.com" site_id="espn_5_mexico" lang="es" xmltv_id="espn_5_mexico.mx">Canal ESPN 5 (México)</channel>
+  <channel site="gatotv.com" site_id="espn_6_mexico" lang="es" xmltv_id="espn_6_mexico.mx">Canal ESPN 6 (México)</channel>
+  <channel site="gatotv.com" site_id="fox_life_mexico" lang="es" xmltv_id="fox_life_mexico.mx">Canal Fox Life (México)</channel>
+  <channel site="gatotv.com" site_id="fox_mexico" lang="es" xmltv_id="fox_mexico.mx">Canal Fox (México)</channel>
+  <channel site="gatotv.com" site_id="fox_sports_2_mexico" lang="es" xmltv_id="fox_sports_2_mexico.mx">Canal Fox Sports 2 (México)</channel>
+  <channel site="gatotv.com" site_id="fox_sports_3_mexico" lang="es" xmltv_id="fox_sports_3_mexico.mx">Canal Fox Sports 3 (México)</channel>
+  <channel site="gatotv.com" site_id="fox_sports_mexico" lang="es" xmltv_id="fox_sports_mexico.mx">Canal Fox Sports (México)</channel>
+  <channel site="gatotv.com" site_id="fxm_mexico" lang="es" xmltv_id="fxm_mexico.mx">Canal FXM (México)</channel>
+  <channel site="gatotv.com" site_id="golden_mexico" lang="es" xmltv_id="golden_mexico.mx">Canal Golden (México)</channel>
+  <channel site="gatotv.com" site_id="green_tv_mexico" lang="es" xmltv_id="green_tv_mexico.mx">Canal Green TV México</channel>
+  <channel site="gatotv.com" site_id="hbo_mexico" lang="es" xmltv_id="hbo_mexico.mx">Canal HBO (México)</channel>
+  <channel site="gatotv.com" site_id="justicia_tv_mexico" lang="es" xmltv_id="justicia_tv_mexico.mx">Canal Justicia TV (México)</channel>
+  <channel site="gatotv.com" site_id="max_anime_mexico" lang="es" xmltv_id="max_anime_mexico.mx">Canal Max Anime (México)</channel>
+  <channel site="gatotv.com" site_id="mtv_mexico" lang="es" xmltv_id="mtv_mexico.mx">Canal MTV (México)</channel>
+  <channel site="gatotv.com" site_id="nat_geo_kids_mexico" lang="es" xmltv_id="nat_geo_kids_mexico.mx">Canal Nat Geo Kids (México)</channel>
+  <channel site="gatotv.com" site_id="national_geographic_wild_mexico" lang="es" xmltv_id="national_geographic_wild_mexico.mx">Canal National Geographic Wild (México)</channel>
+  <channel site="gatotv.com" site_id="nick_junior_mexico" lang="es" xmltv_id="nick_junior_mexico.mx">Canal Nick Jr. (México)</channel>
+  <channel site="gatotv.com" site_id="nickelodeon_mexico" lang="es" xmltv_id="nickelodeon_mexico.mx">Canal Nickelodeon (México)</channel>
+  <channel site="gatotv.com" site_id="nicktoons_mexico" lang="es" xmltv_id="nicktoons_mexico.mx">Canal Nicktoons (México)</channel>
+  <channel site="gatotv.com" site_id="paramount_channel_mexico" lang="es" xmltv_id="paramount_channel_mexico.mx">Canal Paramount Channel (México)</channel>
+  <channel site="gatotv.com" site_id="plural_tv_mexico" lang="es" xmltv_id="plural_tv_mexico.mx">Canal Plural TV (México)</channel>
+  <channel site="gatotv.com" site_id="sony_movies_mexico" lang="es" xmltv_id="sony_movies_mexico.mx">Canal Sony Movies (México)</channel>
+  <channel site="gatotv.com" site_id="star_life_mexico" lang="es" xmltv_id="star_life_mexico.mx">Canal Star Life (México)</channel>
+  <channel site="gatotv.com" site_id="syfy_mexico" lang="es" xmltv_id="syfy_mexico.mx">Canal Syfy (México)</channel>
+  <channel site="gatotv.com" site_id="tbs_mexico" lang="es" xmltv_id="tbs_mexico.mx">Canal TBS (México)</channel>
+  <channel site="gatotv.com" site_id="tcm_mexico" lang="es" xmltv_id="tcm_mexico.mx">Canal TCM (México)</channel>
+  <channel site="gatotv.com" site_id="tnt_novelas_mexico" lang="es" xmltv_id="tnt_novelas_mexico.mx">Canal TNT Novelas (México)</channel>
+  <channel site="gatotv.com" site_id="tnt_series_mexico" lang="es" xmltv_id="tnt_series_mexico.mx">Canal TNT Series (México)</channel>
+  <channel site="gatotv.com" site_id="tv_azteca_deportes" lang="es" xmltv_id="tv_azteca_deportes.mx">Canal TV Azteca Deportes</channel>
+  <channel site="gatotv.com" site_id="tv_azteca_noticias" lang="es" xmltv_id="tv_azteca_noticias.mx">Canal TV Azteca Noticias</channel>
+  <channel site="gatotv.com" site_id="tvc_mexico" lang="es" xmltv_id="tvc_mexico.mx">Canal TVC (México)</channel>
+  <channel site="gatotv.com" site_id="unimas_nuevo_mexico" lang="es" xmltv_id="unimas_nuevo_mexico.mx">Canal UniMás (Nuevo México)</channel>
+  <channel site="gatotv.com" site_id="usa_network_mexico" lang="es" xmltv_id="usa_network_mexico.mx">Canal USA Network (México)</channel>
+  <channel site="gatotv.com" site_id="warner_tv_mexico" lang="es" xmltv_id="warner_tv_mexico.mx">Canal Warner TV (México)</channel>
+  <channel site="gatotv.com" site_id="a_y_e_mexico" lang="es" xmltv_id="AELatinAmerica.us@Mexico">Canal A&amp;E (México)</channel>
+  <channel site="gatotv.com" site_id="a_mas" lang="es" xmltv_id="APlus.mx@SD">Canal a+</channel>
+  <channel site="gatotv.com" site_id="axn_mexico" lang="es" xmltv_id="AXNLatinAmerica.us@Mexico">Canal AXN (México)</channel>
+  <channel site="gatotv.com" site_id="tv_azteca_corazon" lang="es" xmltv_id="AzCorazon.mx@SD">Canal TV Azteca Corazón</channel>
+  <channel site="gatotv.com" site_id="tv_azteca_mundo" lang="es" xmltv_id="AzMundo.mx@SD">Canal TV Azteca Mundo</channel>
+  <channel site="gatotv.com" site_id="azteca_7" lang="es" xmltv_id="Azteca7.mx@SD">Canal Azteca 7 (México)</channel>
+  <channel site="gatotv.com" site_id="azteca_uno" lang="es" xmltv_id="AztecaUno.mx@SD">Canal Azteca Uno</channel>
+  <channel site="gatotv.com" site_id="cartoonito_mexico" lang="es" xmltv_id="CartoonitoLatinAmerica.us@Mexico">Canal Cartoonito (México)</channel>
+  <channel site="gatotv.com" site_id="cartoon_network_mexico" lang="es" xmltv_id="CartoonNetworkLatinAmerica.us@Mexico">Canal Cartoon Network (México)</channel>
+  <channel site="gatotv.com" site_id="cinecanal_mexico" lang="es" xmltv_id="Cinecanal.us@Mexico">Canal Cinecanal (México)</channel>
+  <channel site="gatotv.com" site_id="cinema_mas" lang="es" xmltv_id="CinemaPlus.co@SD">Canal Cinema +</channel>
+  <channel site="gatotv.com" site_id="cinemax_mexico" lang="es" xmltv_id="CinemaxLatinAmerica.us@SD">Canal Cinemax (México)</channel>
+  <channel site="gatotv.com" site_id="de_pelicula_clasico" lang="es" xmltv_id="DePeliculaClasico.mx@SD">Canal De Película Clásico</channel>
+  <channel site="gatotv.com" site_id="de_pelicula" lang="es" xmltv_id="DePeliculaLatinAmerica.mx@SD">Canal De Película</channel>
+  <channel site="gatotv.com" site_id="discovery_channel_mexico" lang="es" xmltv_id="DiscoveryChannelLatinAmerica.us@Mexico">Canal Discovery Channel (México)</channel>
+  <channel site="gatotv.com" site_id="discovery_home_and_health_mexico" lang="es" xmltv_id="DiscoveryHomeHealthLatinAmerica.mx@Mexico">Canal Discovery Home &amp; Health (México)</channel>
+  <channel site="gatotv.com" site_id="discovery_kids_mexico" lang="es" xmltv_id="DiscoveryKidsLatinAmerica.us@Mexico">Canal Discovery Kids (México)</channel>
+  <channel site="gatotv.com" site_id="disney_channel_mexico" lang="es" xmltv_id="DisneyChannelLatinAmerica.ar@North">Canal Disney Channel (México)</channel>
+  <channel site="gatotv.com" site_id="distrito_comedia" lang="es" xmltv_id="DistritoComedia.mx@SD">Canal Distrito Comedia</channel>
+  <channel site="gatotv.com" site_id="espn_2_mexico" lang="es" xmltv_id="ESPN2LatinAmerica.us@Mexico">Canal ESPN 2 México</channel>
+  <channel site="gatotv.com" site_id="espn_2_norte" lang="es" xmltv_id="ESPN2LatinAmerica.us@Mexico">Canal ESPN 2 (Norte)</channel>
+  <channel site="gatotv.com" site_id="espn_4_norte" lang="es" xmltv_id="ESPN4LatinAmerica.us@Mexico">Canal ESPN 4 (Norte)</channel>
+  <channel site="gatotv.com" site_id="espn_mexico" lang="es" xmltv_id="ESPNLatinAmerica.us@Mexico">Canal ESPN (México)</channel>
+  <channel site="gatotv.com" site_id="espn_norte" lang="es" xmltv_id="ESPNLatinAmerica.us@Mexico">Canal ESPN (Norte)</channel>
+  <channel site="gatotv.com" site_id="foro_tv" lang="es" xmltv_id="Foro.mx@SD">Canal Foro TV</channel>
+  <channel site="gatotv.com" site_id="fx_mexico" lang="es" xmltv_id="FX.mx@SD">Canal FX (México)</channel>
+  <channel site="gatotv.com" site_id="history_2_mexico" lang="es" xmltv_id="History2LatinAmerica.us@Mexico">Canal History 2 (México)</channel>
+  <channel site="gatotv.com" site_id="history_mexico" lang="es" xmltv_id="History.mx@SD">Canal History (México)</channel>
+  <channel site="gatotv.com" site_id="ingenio_tv_mexico" lang="es" xmltv_id="IngenioTV.mx@SD">Canal Ingenio TV (México)</channel>
+  <channel site="gatotv.com" site_id="investigation_discovery_mexico" lang="es" xmltv_id="InvestigationDiscoveryLatinAmerica.us@Mexico">Canal Investigation Discovery (México)</channel>
+  <channel site="gatotv.com" site_id="de_las_estrellas_mexico" lang="es" xmltv_id="LasEstrellas.mx@SD">Canal 2 de México (Canal Las Estrellas - XEW)</channel>
+  <channel site="gatotv.com" site_id="lifetime_mexico" lang="es" xmltv_id="LifetimeLatinAmerica.us@Mexico">Canal Lifetime (México)</channel>
+  <channel site="gatotv.com" site_id="milenio_tv" lang="es" xmltv_id="MilenioTelevision.mx@SD">Canal Milenio TV</channel>
+  <channel site="gatotv.com" site_id="multimedios_plus" lang="es" xmltv_id="MultimediosPlus.mx@SD">Canal Multimedios Plus</channel>
+  <channel site="gatotv.com" site_id="national_geographic_mexico" lang="es" xmltv_id="NationalGeographic.mx@SD">Canal National Geographic (México)</channel>
+  <channel site="gatotv.com" site_id="sky_one_mexico" lang="es" xmltv_id="SkyOne.mx@SD">Canal Sky One (México)</channel>
+  <channel site="gatotv.com" site_id="sky_sports_1_mexico" lang="es" xmltv_id="SkySports1.mx@SD">Canal Sky Sports 1 (México)</channel>
+  <channel site="gatotv.com" site_id="sony_mexico" lang="es" xmltv_id="SonyChannel.mx@SD">Canal Sony (México)</channel>
+  <channel site="gatotv.com" site_id="space_mexico" lang="es" xmltv_id="Space.ar@Mexico">Canal Space (México)</channel>
+  <channel site="gatotv.com" site_id="star_channel_mexico" lang="es" xmltv_id="StarChannel.mx@SD">Canal Star Channel (México)</channel>
+  <channel site="gatotv.com" site_id="studio_universal_mexico" lang="es" xmltv_id="StudioUniversalLatinAmerica.us@Mexico">Canal Studio Universal (México)</channel>
+  <channel site="gatotv.com" site_id="telemundo_mexico" lang="es" xmltv_id="TelemundoInternacional.us@South">Canal Telemundo (México)</channel>
+  <channel site="gatotv.com" site_id="4_guadalajara" lang="es" xmltv_id="TelevisaGuadalajara.mx@SD">Canal 4 de Guadalajara (México)</channel>
+  <channel site="gatotv.com" site_id="tlc_mexico" lang="es" xmltv_id="TLCLatinAmerica.us@Mexico">Canal TLC (México)</channel>
+  <channel site="gatotv.com" site_id="tlnovelas_mexico" lang="es" xmltv_id="TlnovelasMexico.mx@SD">Canal TLNovelas (México)</channel>
+  <channel site="gatotv.com" site_id="tnt_mexico" lang="es" xmltv_id="TNTLatinAmerica.us@Mexico">Canal TNT (México)</channel>
+  <channel site="gatotv.com" site_id="tudn_mexico" lang="es" xmltv_id="TUDN.mx@SD">Canal TUDN (México)</channel>
+  <channel site="gatotv.com" site_id="tudn_estados_unidos" lang="es" xmltv_id="TUDN.us@SD">Canal TUDN (Estados Unidos)</channel>
+  <channel site="gatotv.com" site_id="unicable" lang="es" xmltv_id="Unicable.mx@SD">Canal Unicable (México)</channel>
+  <channel site="gatotv.com" site_id="universal_tv_mexico" lang="es" xmltv_id="UniversalTVLatinAmerica.us@Mexico">Canal Universal TV (México)</channel>
+  <channel site="gatotv.com" site_id="22_mexico" lang="es" xmltv_id="XEIMTTDT2.mx@SD">Canal 22 de México</channel>
+  <channel site="gatotv.com" site_id="11_de_mexico" lang="es" xmltv_id="XEIPNTDT.mx@SD">Canal 11 de México</channel>
+  <channel site="mi.tv" site_id="mx#a-e-mundo" lang="es" xmltv_id="">A&amp;E</channel>
+  <channel site="mi.tv" site_id="mx#a-plus" lang="es" xmltv_id="">A+</channel>
+  <channel site="mi.tv" site_id="mx#amc" lang="es" xmltv_id="AMCLatinAmerica.us@SD">AMC</channel>
+  <channel site="mi.tv" site_id="mx#amc-hd" lang="es" xmltv_id="">AMC HD</channel>
+  <channel site="mi.tv" site_id="mx#animal-planet" lang="es" xmltv_id="">Animal Planet</channel>
+  <channel site="mi.tv" site_id="mx#axn" lang="es" xmltv_id="">AXN</channel>
+  <channel site="mi.tv" site_id="mx#az-corazon" lang="es" xmltv_id="">Az Corazón</channel>
+  <channel site="mi.tv" site_id="mx#azteca-7" lang="es" xmltv_id="Azteca7.mx@SD">Azteca 7</channel>
+  <channel site="mi.tv" site_id="mx#azteca-13" lang="es" xmltv_id="">Azteca 13</channel>
+  <channel site="mi.tv" site_id="mx#bandamax" lang="es" xmltv_id="">Bandamax</channel>
+  <channel site="mi.tv" site_id="mx#boomerang-cartoon" lang="es" xmltv_id="CartoonitoLatinAmerica.us@Mexico">Cartoonito</channel>
+  <channel site="mi.tv" site_id="mx#cadenatres" lang="es" xmltv_id="">Excelsior TV</channel>
+  <channel site="mi.tv" site_id="mx#canal-4" lang="es" xmltv_id="">Canal 4</channel>
+  <channel site="mi.tv" site_id="mx#canal-4-foro-tv" lang="es" xmltv_id="Foro.mx@SD">FOROtv</channel>
+  <channel site="mi.tv" site_id="mx#canal-5-galavision" lang="es" xmltv_id="">Canal 5 Galavision</channel>
+  <channel site="mi.tv" site_id="mx#canal-22-conaculta" lang="es" xmltv_id="Canal22MetropolitanayNacional.mx@SD">Canal 22</channel>
+  <channel site="mi.tv" site_id="mx#canal-44-udgtv" lang="es" xmltv_id="">Canal 44 - udgtv</channel>
+  <channel site="mi.tv" site_id="mx#canal-de-las-estrellas-xew" lang="es" xmltv_id="LasEstrellas.mx@SD">Las Estrellas</channel>
+  <channel site="mi.tv" site_id="mx#canal-nu" lang="es" xmltv_id="NUMusic.mx@SD">Canal NU</channel>
+  <channel site="mi.tv" site_id="mx#cartoon-network" lang="es" xmltv_id="CartoonNetworkLatinAmerica.us@Mexico">Cartoon Network</channel>
+  <channel site="mi.tv" site_id="mx#cinecanal" lang="es" xmltv_id="">Cinecanal</channel>
+  <channel site="mi.tv" site_id="mx#cinecanal-hd" lang="es" xmltv_id="">Cinecanal HD</channel>
+  <channel site="mi.tv" site_id="mx#cinemax" lang="es" xmltv_id="">Cinemax</channel>
+  <channel site="mi.tv" site_id="mx#cnn" lang="es" xmltv_id="">CNN</channel>
+  <channel site="mi.tv" site_id="mx#cnn-en-espanol" lang="es" xmltv_id="">CNN en Español</channel>
+  <channel site="mi.tv" site_id="mx#comedy-central" lang="es" xmltv_id="">Comedy Central</channel>
+  <channel site="mi.tv" site_id="mx#de-pelicula" lang="es" xmltv_id="">De Película</channel>
+  <channel site="mi.tv" site_id="mx#de-pelicula-hd" lang="es" xmltv_id="DePeliculaLatinAmerica.mx@SD">De Película HD</channel>
+  <channel site="mi.tv" site_id="mx#discovery-channel" lang="es" xmltv_id="DiscoveryChannelLatinAmerica.us@Mexico">Discovery Channel</channel>
+  <channel site="mi.tv" site_id="mx#discovery-hd-mexico" lang="es" xmltv_id="">Discovery HD</channel>
+  <channel site="mi.tv" site_id="mx#discovery-hd-theater" lang="es" xmltv_id="">Discovery Theater</channel>
+  <channel site="mi.tv" site_id="mx#discovery-home-and-health" lang="es" xmltv_id="">Discovery Home &amp; Health</channel>
+  <channel site="mi.tv" site_id="mx#discovery-id" lang="es" xmltv_id="">Investigation Discovery</channel>
+  <channel site="mi.tv" site_id="mx#discovery-kids" lang="es" xmltv_id="">Discovery Kids</channel>
+  <channel site="mi.tv" site_id="mx#discovery-world-hd" lang="es" xmltv_id="">Discovery World</channel>
+  <channel site="mi.tv" site_id="mx#disney" lang="es" xmltv_id="DisneyChannelLatinAmerica.ar@North">Disney Channel</channel>
+  <channel site="mi.tv" site_id="mx#disney-jr" lang="es" xmltv_id="">Disney Junior</channel>
+  <channel site="mi.tv" site_id="mx#disney-xd" lang="es" xmltv_id="">Disney XD</channel>
+  <channel site="mi.tv" site_id="mx#distrito-comedia" lang="es" xmltv_id="">Distrito Comedia</channel>
+  <channel site="mi.tv" site_id="mx#el-financiero-bloomberg" lang="es" xmltv_id="ElFinancieroBloombergTV.mx@SD">El Financiero Bloomberg</channel>
+  <channel site="mi.tv" site_id="mx#el-gourmet" lang="es" xmltv_id="">El Gourmet</channel>
+  <channel site="mi.tv" site_id="mx#entertainment" lang="es" xmltv_id="">E!</channel>
+  <channel site="mi.tv" site_id="mx#espn" lang="es" xmltv_id="">ESPN</channel>
+  <channel site="mi.tv" site_id="mx#espn-2" lang="es" xmltv_id="">ESPN 2</channel>
+  <channel site="mi.tv" site_id="mx#espn-3" lang="es" xmltv_id="">ESPN 3</channel>
+  <channel site="mi.tv" site_id="mx#espn-hd" lang="es" xmltv_id="">ESPN HD</channel>
+  <channel site="mi.tv" site_id="mx#espn-plus-hd" lang="es" xmltv_id="">ESPN+ HD</channel>
+  <channel site="mi.tv" site_id="mx#europa-europa" lang="es" xmltv_id="">Europa Europa</channel>
+  <channel site="mi.tv" site_id="mx#film-arts" lang="es" xmltv_id="">film&amp;arts</channel>
+  <channel site="mi.tv" site_id="mx#fox" lang="es" xmltv_id="StarChannel.mx@SD">Star Channel</channel>
+  <channel site="mi.tv" site_id="mx#fox-1-hd" lang="es" xmltv_id="">Star Series HD</channel>
+  <channel site="mi.tv" site_id="mx#fox-1-oeste" lang="es" xmltv_id="">Star Series (Oeste)</channel>
+  <channel site="mi.tv" site_id="mx#fox-action-hd" lang="es" xmltv_id="">Star Action HD</channel>
+  <channel site="mi.tv" site_id="mx#fox-comedy-hd" lang="es" xmltv_id="">Star Comedy HD</channel>
+  <channel site="mi.tv" site_id="mx#fox-family" lang="es" xmltv_id="">Star Fun</channel>
+  <channel site="mi.tv" site_id="mx#fox-family-hd" lang="es" xmltv_id="">Star Fun HD</channel>
+  <channel site="mi.tv" site_id="mx#fox-family-oeste" lang="es" xmltv_id="">Star Fun (Oeste)</channel>
+  <channel site="mi.tv" site_id="mx#fox-life" lang="es" xmltv_id="StarLifeLatinAmerica.us@Mexico">Star Life</channel>
+  <channel site="mi.tv" site_id="mx#fox-movies" lang="es" xmltv_id="">Star Hits</channel>
+  <channel site="mi.tv" site_id="mx#fox-movies-hd" lang="es" xmltv_id="">Star Hits HD</channel>
+  <channel site="mi.tv" site_id="mx#fox-oeste-hd" lang="es" xmltv_id="">Star Channel HD</channel>
+  <channel site="mi.tv" site_id="mx#fox-sports" lang="es" xmltv_id="">FOX Sports</channel>
+  <channel site="mi.tv" site_id="mx#fox-sports-2" lang="es" xmltv_id="">FOX Sports 2</channel>
+  <channel site="mi.tv" site_id="mx#fox-sports-3" lang="es" xmltv_id="">FOX Sports 3</channel>
+  <channel site="mi.tv" site_id="mx#fox-sy-fy" lang="es" xmltv_id="">Syfy</channel>
+  <channel site="mi.tv" site_id="mx#fx" lang="es" xmltv_id="">FX</channel>
+  <channel site="mi.tv" site_id="mx#fx-movies" lang="es" xmltv_id="">FX Movies</channel>
+  <channel site="mi.tv" site_id="mx#galavision" lang="es" xmltv_id="ElNu9ve.mx@SD">El Nu9ve</channel>
+  <channel site="mi.tv" site_id="mx#glitz" lang="es" xmltv_id="">Glitz</channel>
+  <channel site="mi.tv" site_id="mx#golden" lang="es" xmltv_id="">Golden</channel>
+  <channel site="mi.tv" site_id="mx#golden-edge" lang="es" xmltv_id="">Golden Edge</channel>
+  <channel site="mi.tv" site_id="mx#hbo-2" lang="es" xmltv_id="">HBO 2</channel>
+  <channel site="mi.tv" site_id="mx#hbo-family" lang="es" xmltv_id="">HBO Family</channel>
+  <channel site="mi.tv" site_id="mx#hbo-oeste" lang="es" xmltv_id="">HBO</channel>
+  <channel site="mi.tv" site_id="mx#hbo-oeste-hd" lang="es" xmltv_id="">HBO HD</channel>
+  <channel site="mi.tv" site_id="mx#hbo-plus-mexico" lang="es" xmltv_id="">HBO Plus México</channel>
+  <channel site="mi.tv" site_id="mx#history" lang="es" xmltv_id="">History</channel>
+  <channel site="mi.tv" site_id="mx#history-hd" lang="es" xmltv_id="">History HD</channel>
+  <channel site="mi.tv" site_id="mx#i-sat" lang="es" xmltv_id="">I-SAT</channel>
+  <channel site="mi.tv" site_id="mx#m-tv" lang="es" xmltv_id="">MTV</channel>
+  <channel site="mi.tv" site_id="mx#mas-chic" lang="es" xmltv_id="">Más Chic</channel>
+  <channel site="mi.tv" site_id="mx#max" lang="es" xmltv_id="">HBO Mundi</channel>
+  <channel site="mi.tv" site_id="mx#max-prime-mexico" lang="es" xmltv_id="">Max Prime México</channel>
+  <channel site="mi.tv" site_id="mx#milenio-tv" lang="es" xmltv_id="MilenioTelevision.mx@SD">Milenio TV</channel>
+  <channel site="mi.tv" site_id="mx#muchmusic" lang="es" xmltv_id="">MuchMusic</channel>
+  <channel site="mi.tv" site_id="mx#national-geographic" lang="es" xmltv_id="">National Geographic</channel>
+  <channel site="mi.tv" site_id="mx#nick-jr" lang="es" xmltv_id="">Nick Jr.</channel>
+  <channel site="mi.tv" site_id="mx#nickelodeon" lang="es" xmltv_id="">Nick</channel>
+  <channel site="mi.tv" site_id="mx#nickelodeon-hd" lang="es" xmltv_id="">Nick 2</channel>
+  <channel site="mi.tv" site_id="mx#proyecto-40" lang="es" xmltv_id="">adn40</channel>
+  <channel site="mi.tv" site_id="mx#ritmoson-latino" lang="es" xmltv_id="">RMS</channel>
+  <channel site="mi.tv" site_id="mx#russia-today-hd" lang="es" xmltv_id="">Russia Today HD</channel>
+  <channel site="mi.tv" site_id="mx#sony" lang="es" xmltv_id="">Sony</channel>
+  <channel site="mi.tv" site_id="mx#sony-hd" lang="es" xmltv_id="">Sony HD</channel>
+  <channel site="mi.tv" site_id="mx#space" lang="es" xmltv_id="Space.ar@Mexico">Space</channel>
+  <channel site="mi.tv" site_id="mx#studio-universal" lang="es" xmltv_id="StudioUniversalLatinAmerica.us@Mexico">Studio Universal</channel>
+  <channel site="mi.tv" site_id="mx#tbs-veryfunny-pan" lang="es" xmltv_id="">TBS</channel>
+  <channel site="mi.tv" site_id="mx#tcm" lang="es" xmltv_id="">TCM</channel>
+  <channel site="mi.tv" site_id="mx#tdn" lang="es" xmltv_id="">TDN</channel>
+  <channel site="mi.tv" site_id="mx#tdn-hd" lang="es" xmltv_id="">TDN HD</channel>
+  <channel site="mi.tv" site_id="mx#telehit" lang="es" xmltv_id="">Telehit</channel>
+  <channel site="mi.tv" site_id="mx#telemundo" lang="es" xmltv_id="">Telemundo</channel>
+  <channel site="mi.tv" site_id="mx#tiin" lang="es" xmltv_id="">TIIN</channel>
+  <channel site="mi.tv" site_id="mx#tlnovelas" lang="es" xmltv_id="TlnovelasMexico.mx@SD">TLNovelas</channel>
+  <channel site="mi.tv" site_id="mx#tnt" lang="es" xmltv_id="TNTLatinAmerica.us@Mexico">TNT</channel>
+  <channel site="mi.tv" site_id="mx#tnt-hd" lang="es" xmltv_id="">TNT HD</channel>
+  <channel site="mi.tv" site_id="mx#tooncast" lang="es" xmltv_id="">Tooncast</channel>
+  <channel site="mi.tv" site_id="mx#tru-tv" lang="es" xmltv_id="">TruTV</channel>
+  <channel site="mi.tv" site_id="mx#tru-tv-hd" lang="es" xmltv_id="">truTV HD</channel>
+  <channel site="mi.tv" site_id="mx#tv-unam" lang="es" xmltv_id="">TV UNAM</channel>
+  <channel site="mi.tv" site_id="mx#tvc-cine-mexicano-cmc" lang="es" xmltv_id="CineMexicano.mx@SD">Cine Mexicano</channel>
+  <channel site="mi.tv" site_id="mx#tvc-platino" lang="es" xmltv_id="">Platino</channel>
+  <channel site="mi.tv" site_id="mx#tve" lang="es" xmltv_id="">TVE</channel>
+  <channel site="mi.tv" site_id="mx#universal-channel" lang="es" xmltv_id="UniversalTVLatinAmerica.us@Mexico">Universal TV</channel>
+  <channel site="mi.tv" site_id="mx#univision" lang="es" xmltv_id="">Univision</channel>
+  <channel site="mi.tv" site_id="mx#vh1" lang="es" xmltv_id="">VH1</channel>
+  <channel site="mi.tv" site_id="mx#warner" lang="es" xmltv_id="WarnerChannel.us@Mexico">Warner Channel</channel>
+  <channel site="mi.tv" site_id="mx#wobi-tv" lang="es" xmltv_id="WOBI.ar@SD">WOBI TV</channel>
+  <channel site="mi.tv" site_id="mx#xeipn-canal-11" lang="es" xmltv_id="XEIPNTDT.mx@SD">Canal Once</channel>
+  <channel site="mi.tv" site_id="mx#xh-gc-canal-5" lang="es" xmltv_id="Canal5.mx@SD">Canal 5</channel>
+  <channel site="mi.tv" site_id="mx#xh-gc-canal-5-hd" lang="es" xmltv_id="">Canal 5 HD</channel>
+</channels>
