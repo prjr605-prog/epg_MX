@@ -51,7 +51,7 @@ jobs:
           find . -maxdepth 1 -type f -size -10k \( -name 'epg_ripper_*' -o -name 'openepg_*' -o -name 'fast*' \) -delete
           gunzip -f epg_ripper_*.xml.gz openepg_*.xml.gz fast*.xml.gz 2>/dev/null || true
 
-      - name: Unir todo en epg_maestra.xml
+      - name: Unir y optimizar epg_maestra.xml
         run: |
           python3 -c '
           import re, os, glob, xml.etree.ElementTree as ET
@@ -76,14 +76,15 @@ jobs:
                               el.clear()
                   except: pass
               out.write("</tv>\n")
+          txt = open("epg_maestra.xml", encoding="utf-8").read()
+          open("epg_maestra.xml", "w", encoding="utf-8").write(re.sub(r"<desc[^>]*>.*?</desc>", "", txt, flags=re.DOTALL))
           '
 
-      - name: Comprimir y guardar epg_maestra.xml.gz actualizado
+      - name: Guardar epg_maestra.xml actualizado
         run: |
-          gzip -k -f epg_maestra.xml
           H="github.com"
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.${H}"
-          git add epg_maestra.xml.gz
-          git commit -m "Actualizacion diaria EPG Maestra comprimida" || exit 0
+          git add epg_maestra.xml
+          git commit -m "Actualizacion diaria EPG Maestra" || exit 0
           git push
