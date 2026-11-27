@@ -4,7 +4,7 @@ on:
   schedule:
     # Se ejecuta diario a las 07:00 UTC (01:00 AM hora de Monterrey)
     - cron: '0 7 * * *'
-  workflow_dispatch: # Permite ejecutarlo manualmente con un botón
+  workflow_dispatch: # Permite ejecutarlo manualmente cuando quieras
 
 jobs:
   grab-epg:
@@ -26,10 +26,12 @@ jobs:
 
       - name: Descargar fuentes complementarias epgshare01
         run: |
-          B="https://epgshare01.online"
-          for F in US2 US_SPORTS1 CA2 UK1 ES1 AR1 CO1 CL1 DIRECTVSPORTS1 BEIN1; do
-            curl -s -L "${B}/epg_ripper_${F}.xml.gz" -o "epg_ripper_${F}.xml.gz" || true
+          D="epgshare01.online"
+          P="epgshare01"
+          for F in MX1 DO1 PE1 US2 US_SPORTS1 CA2 UK1 ES1 AR1 CO1 CL1 DIRECTVSPORTS1 BEIN1; do
+            curl -s -L "https://${D}/${P}/epg_ripper_${F}.xml.gz" -o "epg_ripper_${F}.xml.gz" || true
           done
+          find . -maxdepth 1 -name "epg_ripper_*" -size -10k -delete
           gunzip -f epg_ripper_*.xml.gz 2>/dev/null || true
 
       - name: Unir todo en epg_maestra.xml
