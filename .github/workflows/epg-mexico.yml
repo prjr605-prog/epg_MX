@@ -4,7 +4,7 @@ on:
   schedule:
     # Se ejecuta diario a las 07:00 UTC (01:00 AM hora de Monterrey)
     - cron: '0 7 * * *'
-  workflow_dispatch: # Permite ejecutarlo manualmente cuando quieras
+  workflow_dispatch:
 
 jobs:
   grab-epg:
@@ -24,22 +24,39 @@ jobs:
       - name: Generar guia base (3 dias)
         run: npm run grab --- --channels=mundial_filtrado.xml --days=3 --delay=1000 --output=epg_mundial_3dias.xml
 
-      - name: Descargar fuentes complementarias epgshare01
+      - name: Descargar todos los bloques de EPG (epgshare01 + Open-EPG + FAST)
         run: |
           D="epgshare01.online"
           P="epgshare01"
-          for F in MX1 DO1 PE1 US2 US_SPORTS1 CA2 UK1 ES1 AR1 CO1 CL1 DIRECTVSPORTS1 BEIN1; do
+          for F in MX1 PLEX1 DO1 PE1 CR1 EC1 PA1 SV1 UY1 US2 US_LOCALS1 US_SPORTS1 PEACOCK1 DISTROTV1 FANDUEL1 DRAFTKINGS1 AMCCHANNELS1 RAKUTEN1 WHALETVPLUS1 TBNPLUS1 DELUXEMUSIC1 MUSICBOX1 RALLY_TV1 CA2 UK1 ES1 AR1 CO1 CL1 DIRECTVSPORTS1 BEIN1 ZA1 MY1 AU1; do
             curl -s -L "https://${D}/${P}/epg_ripper_${F}.xml.gz" -o "epg_ripper_${F}.xml.gz" || true
           done
-          find . -maxdepth 1 -name "epg_ripper_*" -size -10k -delete
-          gunzip -f epg_ripper_*.xml.gz 2>/dev/null || true
+
+          M="i.mjh.nz"
+          for F in PlutoTV/all Plex/all SamsungTVPlus/all Roku/all; do
+            NOMBRE=$(echo "$F" | tr '/' '_')
+            curl -s -L "https://${M}/${F}.xml.gz" -o "fast_${NOMBRE}.xml.gz" || true
+          done
+
+          O="open-epg.com"
+          for F in mexico1 mexico2 usa1 usa2 canada1 spain1 uk1 argentina1 colombia1 chile1 peru1; do
+            curl -s -L "https://${O}/files/${F}.xml.gz" -o "openepg_${F}.xml.gz" || true
+          done
+
+          G="://githubusercontent.com"
+          for F in plex_us plex_mx plex_es pluto_us pluto_mx pluto_es samsung_us samsung_mx roku_us tubi_us; do
+            curl -s -L "https://${G}/${F}.xml.gz" -o "fast2_${F}.xml.gz" || true
+          done
+
+          find . -maxdepth 1 -type f -size -10k \( -name 'epg_ripper_*' -o -name 'openepg_*' -o -name 'fast*' \) -delete
+          gunzip -f epg_ripper_*.xml.gz openepg_*.xml.gz fast*.xml.gz 2>/dev/null || true
 
       - name: Unir todo en epg_maestra.xml
         run: |
           python3 -c '
           import re, os, glob, xml.etree.ElementTree as ET
           ids = set(re.findall(r"tvg-id=\"([^\"]+)\"", open("mis_ids.txt").read()))
-          archivos = ["epg_mundial_3dias.xml"] + sorted(glob.glob("epg_ripper_*.xml"))
+          archivos = ["epg_mundial_3dias.xml"] + sorted(glob.glob("epg_ripper_*.xml")) + sorted(glob.glob("openepg_*.xml")) + sorted(glob.glob("fast*.xml"))
           vistos = set()
           with open("epg_maestra.xml", "w", encoding="utf-8") as out:
               out.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<tv>\n")
@@ -61,11 +78,12 @@ jobs:
               out.write("</tv>\n")
           '
 
-      - name: Guardar epg_maestra.xml actualizado
+      - name: Comprimir y guardar epg_maestra.xml.gz actualizado
         run: |
+          gzip -k -f epg_maestra.xml
           H="github.com"
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.${H}"
-          git add epg_maestra.xml
-          git commit -m "Actualizacion diaria EPG Maestra" || exit 0
+          git add epg_maestra.xml.gz
+          git commit -m "Actualizacion diaria EPG Maestra comprimida" || exit 0
           git push
