@@ -1,10 +1,10 @@
-name: Actualizar EPG Mexico
+name: Actualizar EPG Mundial
 
 on:
   schedule:
-    # Se ejecuta diario a las 07:00 UTC (01:00 AM hora de Monterrey / Centro de México)
+    # Se ejecuta diario a las 07:00 UTC (01:00 AM hora de Monterrey)
     - cron: '0 7 * * *'
-  workflow_dispatch: # Permite ejecutarlo manualmente con un botón
+  workflow_dispatch: # Permite ejecutarlo manualmente cuando quieras
 
 jobs:
   grab-epg:
@@ -21,14 +21,14 @@ jobs:
       - name: Instalar dependencias
         run: npm install
 
-      - name: Generar guia completa de Mexico (3 dias)
-        run: npm run grab --- --channels=mexico_completo.xml --days=3 --delay=1000 --output=epg_mexico_3dias.xml
+      - name: Generar guia mundial (3 dias)
+        run: npm run grab --- --channels=mundial_filtrado.xml --days=3 --delay=1000 --output=epg_mundial_3dias.xml
 
       - name: Guardar archivo actualizado
         run: |
           H="github.com"
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.${H}"
-          git add epg_mexico_3dias.xml
-          git commit -m "Actualizacion diaria EPG Mexico" || exit 0
+          git add epg_mundial_3dias.xml
+          git commit -m "Actualizacion diaria EPG Mundial" || exit 0
           git push
