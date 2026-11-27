@@ -77,7 +77,10 @@ jobs:
                   except: pass
               out.write("</tv>\n")
           txt = open("epg_maestra.xml", encoding="utf-8").read()
-          open("epg_maestra.xml", "w", encoding="utf-8").write(re.sub(r"<desc[^>]*>.*?</desc>", "", txt, flags=re.DOTALL))
+          txt = re.sub(r"<desc[^>]*>.*?</desc>", "", txt, flags=re.DOTALL)
+          txt = re.sub(r"<image>.*?</image>", "", txt)
+          txt = re.sub(r"<icon[^>]*/>", "", txt)
+          open("epg_maestra.xml", "w", encoding="utf-8").write(txt)
           '
 
       - name: Guardar epg_maestra.xml actualizado
