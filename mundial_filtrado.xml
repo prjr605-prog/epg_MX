@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <channels>
   <channel site="gatotv.com" site_id="5_mexico" lang="es" xmltv_id="5_mexico.mx">Canal 5 de México (XHGC)</channel>
   <channel site="gatotv.com" site_id="9_de_mexico" lang="es" xmltv_id="9_de_mexico.mx">Canal 9 de México (XEQ-TDT)</channel>
@@ -671,4 +671,76 @@
   <channel site="mi.tv" site_id="pe#tyc-sports" lang="es" xmltv_id="">TyC Sports</channel>
   <channel site="mi.tv" site_id="pe#universal-channel" lang="es" xmltv_id="">Universal TV</channel>
   <channel site="mi.tv" site_id="pe#warner" lang="es" xmltv_id="">Warner Channel</channel>
-</channels>
+<channel site="plex.tv" site_id="68c87137679609f139e6cbe0" lang="en" xmltv_id="RevryLatinX.us@SD">Revry Latinx</channel>
+  <channel site="plex.tv" site_id="666e15a3ce73ed6023b55a0f" lang="es" xmltv_id="BUENVIAJE.es@SD">Buen Viaje</channel>
+  <channel site="plex.tv" site_id="67db0a3892cb453db28ab020" lang="es" xmltv_id="CineRomantico.us@SD">Cine Romántico</channel>
+  <channel site="plex.tv" site_id="66633339ebeb02ee8bd1597c" lang="es" xmltv_id="FIFAPlus.uk@HispanicAmerica">FIFA+</channel>
+  <channel site="plex.tv" site_id="67f82cc411e2a0ebf4b022d8" lang="es" xmltv_id="LosAsesinatosdeMidsomer.us@Spain">Los asesinatos de Midsomer</channel>
+  <channel site="plex.tv" site_id="6623c8ffed4918437ed56ec4" lang="es" xmltv_id="MovieSphere.us@MX">MOVIESPHERE</channel>
+  <channel site="plex.tv" site_id="66a2e90994b6a49cb5054d7d" lang="es" xmltv_id="MrBeanAnimated.uk@ES">Mr. Bean</channel>
+  <channel site="plex.tv" site_id="6970fa30bde579fb712623ff" lang="es" xmltv_id="NatureTime.ca@LATAM">Nature Time</channel>
+  <channel site="plex.tv" site_id="6244f2d33ef43121e567cf13" lang="es" xmltv_id="RCNMas.co@SD">RCN Más</channel>
+  <channel site="plex.tv" site_id="668431d0702b9db9f817725e" lang="es" xmltv_id="Runtime.us@SD">Runtime</channel>
+  <channel site="plex.tv" site_id="6684374320f405b792a3b6b3" lang="es" xmltv_id="RuntimeAccion.es@SD">Runtime Acción</channel>
+  <channel site="plex.tv" site_id="66843849a017b7e51aeb28d7" lang="es" xmltv_id="RuntimeComedia.es@SD">Runtime Comedia</channel>
+  <channel site="plex.tv" site_id="668434f6a017b7e51aeb28d3" lang="es" xmltv_id="RuntimeCrimen.es@SD">Runtime Crimen</channel>
+  <channel site="plex.tv" site_id="66842f38cd6f1d394094115d" lang="es" xmltv_id="RuntimeRomance.es@SD">Runtime Romance</channel>
+  <channel site="plex.tv" site_id="62f156b1ed056a1db9ef3d67" lang="es" xmltv_id="StingrayKaraoke.ca@SD">Stingray Karaoke</channel>
+  <channel site="plex.tv" site_id="62fbf52c1567211fdb82e922" lang="es" xmltv_id="StingrayNaturescape.ca@SD">Stingray Naturescape</channel>
+  <channel site="plex.tv" site_id="65cd2cf397fb4731f54ecae7" lang="es" xmltv_id="TastemadeenEspanol.us@SD">Tastemade en Español</channel>
+  <channel site="plex.tv" site_id="6750ddfe89fc497ec780f5bd" lang="es" xmltv_id="ZeeMundo.us@SD">Zee Mundo</channel>
+  <channel site="pluto.tv" site_id="5de802659167b10009e7deba" lang="en" xmltv_id="PlutoTVSeriesRetro.us@LatAm">Pluto TV Series Retro</channel>
+  <channel site="pluto.tv" site_id="61a52615cbef2500072876e2" lang="es" xmltv_id="AcapulcoShore.us@LatAm">Acapulco Shore Pluto TV</channel>
+  <channel site="pluto.tv" site_id="5ffcc21a432945000762d06b" lang="es" xmltv_id="ComedyCentralPlutoTV.us@LatAm">Comedy Central Pluto TV</channel>
+  <channel site="pluto.tv" site_id="5fab088b3279760007d4e4fd" lang="es" xmltv_id="MTVPlutoTV.us@LatAm">MTV Pluto TV</channel>
+  <channel site="pluto.tv" site_id="5dfcde52d28b09000a42d7a2" lang="es" xmltv_id="PlutoTVALaMexicana.us@LatAm">Pluto TV A La Mexicana</channel>
+  <channel site="pluto.tv" site_id="698a45156dc3c71eb1ba6599" lang="es" xmltv_id="PlutoTVAmoryMentiras.us@LatAm">Pluto TV Amor y Mentiras</channel>
+  <channel site="pluto.tv" site_id="5dcde17bf6591d0009839e02" lang="es" xmltv_id="PlutoTVAnime.us@LatAm">Pluto TV Anime</channel>
+  <channel site="pluto.tv" site_id="5ddc266f80e3550009136843" lang="es" xmltv_id="PlutoTVAventura.us@LatAm">Pluto TV Aventura</channel>
+  <channel site="pluto.tv" site_id="5dcb62e63d4d8f0009f36881" lang="es" xmltv_id="PlutoTVCineAccion.us@LatAm">Pluto TV Cine Acción</channel>
+  <channel site="pluto.tv" site_id="609059dc63be6e0007b4eca6" lang="es" xmltv_id="PlutoTVCineClasico.us@LatAm">Pluto TV Cine Clásico</channel>
+  <channel site="pluto.tv" site_id="5dcdde78f080d900098550e4" lang="es" xmltv_id="PlutoTVCineComedia.us@LatAm">Pluto TV Cine Comedia</channel>
+  <channel site="pluto.tv" site_id="624af40c004f8000079b784d" lang="es" xmltv_id="PlutoTVCineCrimen.us@LatAm">Pluto TV Cine Crimen</channel>
+  <channel site="pluto.tv" site_id="5dcddfcb229eff00091b6bdf" lang="es" xmltv_id="PlutoTVCineDrama.us@LatAm">Pluto TV Cine Drama</channel>
+  <channel site="pluto.tv" site_id="5dcde437229eff00091b6c30" lang="es" xmltv_id="PlutoTVCineEstelar.us@LatAm">Pluto TV Cine Estelar</channel>
+  <channel site="pluto.tv" site_id="5dd6ddb30a1d8a000908ed4c" lang="es" xmltv_id="PlutoTVCineFamilia.us@LatAm">Pluto TV Cine Familia</channel>
+  <channel site="pluto.tv" site_id="6806d519fea7414f33f57016" lang="es" xmltv_id="PlutoTVCineInspirador.us@LatAm">Pluto TV Cine Inspirador</channel>
+  <channel site="pluto.tv" site_id="5dd7ea2aeab5230009986735" lang="es" xmltv_id="PlutoTVCineRomance.us@LatAm">Pluto TV Cine Romance</channel>
+  <channel site="pluto.tv" site_id="5ddc4e8bcbb9010009b4e84f" lang="es" xmltv_id="PlutoTVCineSuspenso.us@LatAm">Pluto TV Cine Suspenso</channel>
+  <channel site="pluto.tv" site_id="5dcddf1ed95e740009fef7ab" lang="es" xmltv_id="CineTerror.us@LatAm">Pluto TV Cine Terror</channel>
+  <channel site="pluto.tv" site_id="5dd6d935d000120009bc1132" lang="es" xmltv_id="PlutoTVCompetencias.us@LatAm">Pluto TV Competencias</channel>
+  <channel site="pluto.tv" site_id="5dcde07af1c85b0009b18651" lang="es" xmltv_id="PlutoTVDeportes.us@LatAm">Pluto TV Deportes</channel>
+  <channel site="pluto.tv" site_id="5ddc503ac7ef120009b101a2" lang="es" xmltv_id="PlutoTVDocumentales.us@LatAm">Pluto TV Documentales</channel>
+  <channel site="pluto.tv" site_id="6185a9a88b2ce30007de5128" lang="es" xmltv_id="PlutoTVDramasCoreanos.us@LatAm">Pluto TV Dramas Coreanos</channel>
+  <channel site="pluto.tv" site_id="6661d5424b10960008599fa3" lang="es" xmltv_id="PlutoTVDramasCoreanosTeen.us@LatAm">Pluto TV Dramas Coreanos Teen</channel>
+  <channel site="pluto.tv" site_id="5ff3934600d4c7000733ff49" lang="es" xmltv_id="PlutoTVESports.us@LatAm">Pluto TV E-Sports</channel>
+  <channel site="pluto.tv" site_id="5dcde0657444a40009cd2422" lang="es" xmltv_id="PlutoTVEstilodeVida.us@LatAm">Pluto TV Estilo de Vida</channel>
+  <channel site="pluto.tv" site_id="5de5758e1a30dc00094fcd6c" lang="es" xmltv_id="PlutoTVHistoria.us@LatAm">Pluto TV Historia</channel>
+  <channel site="pluto.tv" site_id="5e8397936791b30007ebb5a7" lang="es" xmltv_id="PlutoTVHumor.us@LatAm">Pluto TV Humor</channel>
+  <channel site="pluto.tv" site_id="5dcde27ffae9520009c0c75a" lang="es" xmltv_id="Investiga.us@LatAm">Pluto TV Investiga</channel>
+  <channel site="pluto.tv" site_id="5dcde2ac4bc6c500094ab45b" lang="es" xmltv_id="PlutoTVJunior.us@LatAm">Pluto TV Junior</channel>
+  <channel site="pluto.tv" site_id="5dd6dae8ce788b0009eaf77b" lang="es" xmltv_id="PlutoTVKids.us@LatAm">Pluto TV Kids</channel>
+  <channel site="pluto.tv" site_id="6109ab25b84d6a0007504886" lang="es" xmltv_id="PlutoTVMiObsesionFavorita.us@LatAm">Pluto TV Mi Obsesión Favorita</channel>
+  <channel site="pluto.tv" site_id="5dcde2f53449c50009b2b4dc" lang="es" xmltv_id="PlutoTVMisterios.us@LatAm">Pluto TV Misterios</channel>
+  <channel site="pluto.tv" site_id="5dd85eac039bba0009e86d1d" lang="es" xmltv_id="PlutoTVNaturaleza.us@LatAm">Pluto TV Naturaleza</channel>
+  <channel site="pluto.tv" site_id="5dcde0cc2efd2700090b7ff4" lang="es" xmltv_id="PlutoTVNovelas.us@LatAm">Pluto TV Novelas</channel>
+  <channel site="pluto.tv" site_id="6474a7958e3c0a0008b97cae" lang="es" xmltv_id="PlutoTVNovelasdeMexico.us@LatAm">Pluto TV Novelas de México</channel>
+  <channel site="pluto.tv" site_id="686eed4c677f2f98b4a1ccd4" lang="es" xmltv_id="PlutoTVNovelasdeOtrosContinentes.us@LatAm">Pluto TV Novelas de Otros Continentes</channel>
+  <channel site="pluto.tv" site_id="6474a86917f5e100089a0c1c" lang="es" xmltv_id="PlutoTVNovelasdeVenezuela.us@LatAm">Pluto TV Novelas de Venezuela</channel>
+  <channel site="pluto.tv" site_id="5defde6d6c07b50009cf0757" lang="es" xmltv_id="PlutoTVNuestroCine.us@LatAm">Pluto TV Nuestro Cine</channel>
+  <channel site="pluto.tv" site_id="5e98b0447665f200078caded" lang="es" xmltv_id="PlutoTVPeleas.us@LatAm">Pluto TV Peleas</channel>
+  <channel site="pluto.tv" site_id="5dcde197f6591d0009839e04" lang="es" xmltv_id="PlutoTVReality.us@LatAm">Pluto TV Reality</channel>
+  <channel site="pluto.tv" site_id="5f2817d3d7573a00080f9175" lang="es" xmltv_id="PlutoTVSciFi.us@LatAm">Pluto TV Sci-Fi</channel>
+  <channel site="pluto.tv" site_id="5dcde1317578340009b751d0" lang="es" xmltv_id="PlutoTVSeries.us@LatAm">Pluto TV Series</channel>
+  <channel site="pluto.tv" site_id="6479ff1c17f5e10008ad2797" lang="es" xmltv_id="PlutoTVSeriesdeAccion.us@LatAm">Pluto TV Series de Acción</channel>
+  <channel site="pluto.tv" site_id="655f626d57fe4a00085c7c3e" lang="es" xmltv_id="PlutoTVSeriesdeComedia.us@LatAm">Pluto TV Series de Comedia</channel>
+  <channel site="pluto.tv" site_id="655f62ff954b020008c91ec6" lang="es" xmltv_id="PlutoTVSeriesdeCrimen.us@LatAm">Pluto TV Series de Crimen</channel>
+  <channel site="pluto.tv" site_id="655f636d954b020008c93299" lang="es" xmltv_id="PlutoTVSeriesdeDrama.us@LatAm">Pluto TV Series de Drama</channel>
+  <channel site="pluto.tv" site_id="6806d570c178637410ae4962" lang="es" xmltv_id="PlutoTVSeriesdeOtrosContinentes.us@LatAm">Pluto TV Series de Otros Continentes</channel>
+  <channel site="pluto.tv" site_id="65662f8a2c46f300088a84cc" lang="es" xmltv_id="PlutoTVSeriesdeSciFi.us@LatAm">Pluto TV Series de Sci-Fi</channel>
+  <channel site="pluto.tv" site_id="5dd837642c6e9300098ad484" lang="es" xmltv_id="PlutoTVSeriesLatinas.us@LatAm">Pluto TV Series Latinas</channel>
+  <channel site="pluto.tv" site_id="5ec5761aabe4690007f6e047" lang="es" xmltv_id="StarTrek.us@LatAm">Pluto TV Star Trek</channel>
+  <channel site="pluto.tv" site_id="5dd6dc7480e3550009133d4a" lang="es" xmltv_id="PlutoTVVelocidad.us@LatAm">Pluto TV Velocidad</channel>
+  <channel site="pluto.tv" site_id="5df265697ec3510009df1ef0" lang="es" xmltv_id="PlutoTVVidaReal.us@LatAm">Pluto TV Vida Real</channel>
+  <channel site="pluto.tv" site_id="63a084934734f30007457b2c" lang="es" xmltv_id="SmithsonianChannelPlutoTV.us@LatAm">Smithsonian Channel Pluto TV</channel>
+  </channels>
