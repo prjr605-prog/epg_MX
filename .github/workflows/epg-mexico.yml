@@ -1,10 +1,10 @@
-name: Actualizar EPG Mundial
+name: Actualizar EPG Maestra
 
 on:
   schedule:
     # Se ejecuta diario a las 07:00 UTC (01:00 AM hora de Monterrey)
     - cron: '0 7 * * *'
-  workflow_dispatch: # Permite ejecutarlo manualmente cuando quieras
+  workflow_dispatch: # Permite ejecutarlo manualmente con un botón
 
 jobs:
   grab-epg:
@@ -21,14 +21,49 @@ jobs:
       - name: Instalar dependencias
         run: npm install
 
-      - name: Generar guia mundial (3 dias)
+      - name: Generar guia base (3 dias)
         run: npm run grab --- --channels=mundial_filtrado.xml --days=3 --delay=1000 --output=epg_mundial_3dias.xml
 
-      - name: Guardar archivo actualizado
+      - name: Descargar fuentes complementarias epgshare01
+        run: |
+          B="https://epgshare01.online"
+          for F in US2 US_SPORTS1 CA2 UK1 ES1 AR1 CO1 CL1 DIRECTVSPORTS1 BEIN1; do
+            curl -s -L "${B}/epg_ripper_${F}.xml.gz" -o "epg_ripper_${F}.xml.gz" || true
+          done
+          gunzip -f epg_ripper_*.xml.gz 2>/dev/null || true
+
+      - name: Unir todo en epg_maestra.xml
+        run: |
+          python3 -c '
+          import re, os, glob, xml.etree.ElementTree as ET
+          ids = set(re.findall(r"tvg-id=\"([^\"]+)\"", open("mis_ids.txt").read()))
+          archivos = ["epg_mundial_3dias.xml"] + sorted(glob.glob("epg_ripper_*.xml"))
+          vistos = set()
+          with open("epg_maestra.xml", "w", encoding="utf-8") as out:
+              out.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<tv>\n")
+              for r in archivos:
+                  if not os.path.exists(r): continue
+                  try:
+                      for _, el in ET.iterparse(r, events=("end",)):
+                          if el.tag == "channel":
+                              c = el.get("id")
+                              if c in ids and c not in vistos:
+                                  vistos.add(c)
+                                  out.write("  " + ET.tostring(el, encoding="unicode").strip() + "\n")
+                              el.clear()
+                          elif el.tag == "programme":
+                              if el.get("channel") in ids:
+                                  out.write("  " + ET.tostring(el, encoding="unicode").strip() + "\n")
+                              el.clear()
+                  except: pass
+              out.write("</tv>\n")
+          '
+
+      - name: Guardar epg_maestra.xml actualizado
         run: |
           H="github.com"
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.${H}"
-          git add epg_mundial_3dias.xml
-          git commit -m "Actualizacion diaria EPG Mundial" || exit 0
+          git add epg_maestra.xml
+          git commit -m "Actualizacion diaria EPG Maestra" || exit 0
           git push
