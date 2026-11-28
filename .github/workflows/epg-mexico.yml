@@ -24,8 +24,10 @@ jobs:
       - name: Generar guia base (3 dias)
         run: npm run grab --- --channels=mundial_filtrado.xml --days=3 --delay=1000 --output=epg_mundial_3dias.xml
 
-      - name: Descargar todos los bloques de EPG (epgshare01 + Open-EPG + FAST)
+      - name: Descargar todos los bloques de EPG (Proveedor + epgshare01 + Open-EPG + FAST)
         run: |
+          curl -s -L -A "Mozilla/5.0" "http://megaottdns.shop" -o "epg_proveedor.xml" || true
+
           D="epgshare01.online"
           P="epgshare01"
           for F in MX1 PLEX1 DO1 PE1 CR1 EC1 PA1 SV1 UY1 US2 US_LOCALS1 US_SPORTS1 PEACOCK1 DISTROTV1 FANDUEL1 DRAFTKINGS1 AMCCHANNELS1 RAKUTEN1 WHALETVPLUS1 TBNPLUS1 DELUXEMUSIC1 MUSICBOX1 RALLY_TV1 CA2 UK1 ES1 AR1 CO1 CL1 DIRECTVSPORTS1 BEIN1 ZA1 MY1 AU1; do
@@ -51,29 +53,37 @@ jobs:
           find . -maxdepth 1 -type f -size -10k \( -name 'epg_ripper_*' -o -name 'openepg_*' -o -name 'fast*' \) -delete
           gunzip -f epg_ripper_*.xml.gz openepg_*.xml.gz fast*.xml.gz 2>/dev/null || true
 
-      - name: Unir y optimizar epg_maestra.xml
+      - name: Unir, deduplicar y optimizar epg_maestra.xml
         run: |
           python3 -c '
           import re, os, glob, xml.etree.ElementTree as ET
           ids = set(re.findall(r"tvg-id=\"([^\"]+)\"", open("mis_ids.txt").read()))
-          archivos = ["epg_mundial_3dias.xml"] + sorted(glob.glob("epg_ripper_*.xml")) + sorted(glob.glob("openepg_*.xml")) + sorted(glob.glob("fast*.xml"))
-          vistos = set()
+          archivos = ["epg_mundial_3dias.xml", "epg_proveedor.xml"] + sorted(glob.glob("epg_ripper_*.xml")) + sorted(glob.glob("openepg_*.xml")) + sorted(glob.glob("fast*.xml"))
+          canales_con_guia = set()
+          vistos_prog = set()
           with open("epg_maestra.xml", "w", encoding="utf-8") as out:
               out.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<tv>\n")
               for r in archivos:
                   if not os.path.exists(r): continue
+                  progs, chans = {}, {}
                   try:
                       for _, el in ET.iterparse(r, events=("end",)):
                           if el.tag == "channel":
                               c = el.get("id")
-                              if c in ids and c not in vistos:
-                                  vistos.add(c)
-                                  out.write("  " + ET.tostring(el, encoding="unicode").strip() + "\n")
+                              if c in ids and c not in canales_con_guia:
+                                  chans[c] = ET.tostring(el, encoding="unicode").strip()
                               el.clear()
                           elif el.tag == "programme":
-                              if el.get("channel") in ids:
-                                  out.write("  " + ET.tostring(el, encoding="unicode").strip() + "\n")
+                              c = el.get("channel")
+                              st = el.get("start", "")[:14]
+                              if c in ids and c not in canales_con_guia and st and (c, st) not in vistos_prog:
+                                  vistos_prog.add((c, st))
+                                  progs.setdefault(c, []).append(ET.tostring(el, encoding="unicode").strip())
                               el.clear()
+                      for c, lp in progs.items():
+                          out.write("  " + chans.get(c, f"<channel id=\"{c}\"><display-name>{c}</display-name></channel>") + "\n")
+                          for p in lp: out.write("  " + p + "\n")
+                          canales_con_guia.add(c)
                   except: pass
               out.write("</tv>\n")
           txt = open("epg_maestra.xml", encoding="utf-8").read()
